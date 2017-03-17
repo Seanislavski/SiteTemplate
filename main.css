@@ -1,0 +1,12 @@
+/*# sourceMappingURL=main.css */
+body {
+  background-color: #21C2E0;
+  font-family: Helvetica, sans-serif; }
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+/*# sourceMappingURL=main.css.map */

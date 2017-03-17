@@ -1,0 +1,14 @@
+/*# sourceMappingURL=main.css */
+@import 'variables';
+
+body {
+    background-color:$primarycolor;
+    font-family: $font-stack;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
