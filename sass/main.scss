@@ -2,13 +2,27 @@
 @import 'variables';
 
 body {
-    background-color:$primarycolor;
+    background-color:$primaryColor;
     font-family: $font-stack;
 }
 
 .header {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 2px solid $fontColor;
+    color: fontColor;
+
+}
+
+#title {
+	color: $fontColor;
+	margin-bottom: 5px;
+
+}
+
+#subTitle{
+	color: $subFontColor;
+	margin-top: 0px;
 }
