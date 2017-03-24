@@ -4,6 +4,7 @@
 body {
     background-color:$primaryColor;
     font-family: $font-stack;
+    margin: 0px;
 }
 
 .header {
@@ -13,7 +14,6 @@ body {
     align-items: center;
     border-bottom: 2px solid $fontColor;
     color: fontColor;
-
 }
 
 #title {
@@ -25,4 +25,42 @@ body {
 #subTitle{
 	color: $subFontColor;
 	margin-top: 0px;
+}
+
+#grad {
+  background: $primaryColor; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, $gradTo,$gradColor); /* Safari */
+  background: -o-radial-gradient(circle, $gradTo,$gradColor); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, $gradTo,$gradColor); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, $gradTo,$gradColor); /* Standard syntax */
+}
+
+.main{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.mainHead{
+    align-self: center;
+    padding-top: 10px
+}
+
+.mainBody{
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.mainColumn{
+    border: 2px solid black;
+}
+
+.columnTwo{
+
 }
